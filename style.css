@@ -64,18 +64,27 @@
 }
 .left_text_img, .right_text_img{
     width: 350px;
+    position: relative;
     
    
 }
+.left_text_img{
+    left: 0;
+    bottom: 0px;
+}
 .left_text_img img{
     width: 100%;
+    height: 100%;
+
 }
 .right_text_img img{
     width: 100%;
+    height: 100%;
 }
 .h_left_h1, .h_right_h1{
     max-width: 100%;
     width: 450px;
+   
 }
 
 .h_left_h1{

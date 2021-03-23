@@ -25,6 +25,7 @@
 }
 .header_right{
     padding-left: 50px; 
+    position: relative;
 }
 .header_h1 .logo{
     height: 80px;
@@ -127,7 +128,7 @@
 }
 .button{
     text-align: right;
-    margin-top: 50px;
+    margin: 50px 0 100px;
 }
 
 button:active, button:focus{
@@ -169,5 +170,62 @@ button:active, button:focus{
 }
 .buttton_rt{
     text-align: left;
-    
+}
+.contact{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 340px;
+    color: #fff;
+    bottom: 20px;
+    left: 150px;
+}
+.contact .cont{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 150%;
+    border: 2px solid #fff;
+}
+.contact .c_1{
+    background-color: #C33A7C;
+    box-shadow: 0 0 4px 4px #c33a7ca1;
+}
+.contact .c_2{
+    background-color: #32495E;
+    box-shadow: 0 0 4px 4px #32495Ea1;
+}
+.contact .c_3{
+    background-color: #4598FF;
+    box-shadow: 0 0 4px 4px #4598FFa1;
+}
+.contact .c_4{
+    background-color: #14AC51;
+    box-shadow: 0 0 4px 4px #14AC51a1;
+}
+.contact .c_5{
+    background-color: #E95258;
+    box-shadow: 0 0 4px 4px #E95258a1;
+}
+
+.contact .c_1:hover{
+    box-shadow: 0 0 2px 12px #c33a7ca1;
+}
+.contact .c_2:hover{
+    background-color: #32495E;
+    box-shadow: 0 0 2px 12px #32495Ea1;
+}
+.contact .c_3:hover{
+    background-color: #4598FF;
+    box-shadow: 0 0 2px 12px #4598FFa1;
+}
+.contact .c_4:hover{
+    background-color: #14AC51;
+    box-shadow: 0 0 2px 12px #14AC51a1;
+}
+.contact .c_5:hover{
+    background-color: #E95258;
+    box-shadow: 0 0 2px 12px #E95258a1;
 }
